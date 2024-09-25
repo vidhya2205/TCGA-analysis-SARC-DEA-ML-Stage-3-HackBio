@@ -432,6 +432,10 @@ ggplot(data_summary, aes(x = age_group, y = Primary_diagnosis, size = PatientCou
        y = "Diagnosis",
        size = "Number of Patients",
        color = "Gender")
+table(sample_info$Primary_diagnosis[sample_info$age_group=='>=40'])
+table(sample_info$Gender[sample_info$age_group=='>=40'])
+table(sample_info$Primary_diagnosis[sample_info$age_group=='18-40'])
+table(sample_info$Gender[sample_info$age_group=='18-40'])
 
 ```
 
