@@ -23,7 +23,7 @@ Previous studies indicate that there is a significant difference in response to 
 
 <p align = center>
   <kbd>
-<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcNjIyWYQ8SKELVYk0_wPchMDsfPBcf-sBjrk1cQqLvJvIx19Q9xle5AuSQfvlwFsweFUCCHfd90u3zreTYTeghe1f_GKNLFzlHuuTOBO1do-uVW1s_eebCYyyCX5O1N_Bj95LNY4KHPzkBaA580LWa0wa-?key=xvw3JB3jr1ZpthYtl54CPw" width="400" height = "400">
+<img src="https://drive.google.com/drive/recent width="400" height = "400">
   </kbd>
   </p>
   <p align = center><sup>Figure 3.2: Flow chart summarizing Biomarker discovery methodology </sup></p>
