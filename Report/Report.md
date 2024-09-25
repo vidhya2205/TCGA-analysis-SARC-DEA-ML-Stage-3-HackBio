@@ -23,7 +23,7 @@ Previous studies indicate that there is a significant difference in response to 
 
 <p align = center>
   <kbd>
-<img src="https://drive.google.com/drive/recent width="400" height = "400">
+<img src="https://drive.google.com/drive/recent" width="400" height = "400">
   </kbd>
   </p>
   <p align = center><sup>Figure 3.2: Flow chart summarizing Biomarker discovery methodology </sup></p>
