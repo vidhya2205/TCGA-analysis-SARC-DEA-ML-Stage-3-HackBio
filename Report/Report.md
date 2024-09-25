@@ -152,28 +152,4 @@ In conclusion, the RNA-seq data analysis of AYA and OA sarcoma patients revealed
 
    13. Wolfson JA, Kenzik KM, Foxworthy B, et al. Understanding Causes of Inferior Outcomes in Adolescents and Young Adults With Cancer. J Natl Compr Canc Netw. 2023;21(8):881-888. doi:10.6004/jnccn.2023.7056.
 
-   14. Li, X., Liang, L., Huang, L. et al. High expression of protein phosphatase 4 is associated with the aggressive malignant behavior of colorectal carcinoma. Mol Cancer 14, 95 (2015). https\://doi.org/10.1186/s12943-015-0356-7
-
-   15. Dong MZ, Ouyang YC, Gao SC, et al. PPP4C facilitates homologous recombination DNA repair by dephosphorylating PLK1 during early embryo development. Development. 2022;149(10):dev200351. doi:10.1242/dev.200351
-
-   16. Wang, Y., Han, W., Yun, S. et al. Identification of protein phosphatase 4 catalytic subunit as a Wnt promoting factor in pan-cancer and Xenopus early embryogenesis. Sci Rep 13, 10240 (2023). https\://doi.org/10.1038/s41598-023-35719-y.
-
-   17. Hastie CJ, Vázquez-Martin C, Philp A, Stark MJ, Cohen PT. The Saccharomyces cerevisiae orthologue of the human protein phosphatase 4 core regulatory subunit R2 confers resistance to the anticancer drug cisplatin. FEBS J. 2006;273(14):3322-3334. doi:10.1111/j.1742-4658.2006.05336.x
-
-   18. Grubelnik G, Boštjančič E, Pavlič A, Kos M, Zidar N. NANOG expression in human development and cancerogenesis. Exp Biol Med (Maywood). 2020;245(5):456-464. doi:10.1177/1535370220905560
-
-   19. Dunwell TL, Holland PWH. A sister of NANOG regulates genes expressed in pre-implantation human development. Open Biol. 2017;7(4):170027. doi:10.1098/rsob.170027
-
-   20. Jiang MC, Ni JJ, Cui WY, Wang BY, Zhuo W. Emerging roles of lncRNA in cancer and therapeutic opportunities. Am J Cancer Res. 2019;9(7):1354-1366. Published 2019 Jul 1.
-
-   21. Xie, J., Wang, M., Xu, S., Huang, Z., & Grant, P. W. (2021). The Unsupervised Feature Selection Algorithms Based on Standard Deviation and Cosine Similarity for Genomic Data Analysis. _Frontiers in Genetics_, _12_, 684100. <https://doi.org/10.3389/fgene.2021.684100> 
-
-   22. Acharjee, A., Larkman, J., Xu, Y. _et al._ A random forest-based biomarker discovery and power analysis framework for diagnostics research. _BMC Med Genomics_ **13**, 178 (2020). <https://doi.org/10.1186/s12920-020-00826-6> 
-
-   23. Naji, M. A., Filali, S. E., Aarika, K., Benlahmar, E. H., Abdelouhahid, R. A., & Debauche, O. (2020). Machine Learning Algorithms For Breast Cancer Prediction And Diagnosis. _Procedia Computer Science_, _191_, 487-492. <https://doi.org/10.1016/j.procs.2021.07.062>.
-
-   24. Saritas, I., Ozkan, I. A., & Sert, I. U. (2010). Prognosis of prostate cancer by artificial neural networks. _Expert Systems With Applications_, _37_(9), 6646-6650. <https://doi.org/10.1016/j.eswa.2010.03.056> 
-
-   25. Sharma, A. Aggarwal and T. Choudhury, "Breast Cancer Detection Using Machine Learning Algorithms," _2018 International Conference on Computational Techniques, Electronics and Mechanical Systems (CTEMS)_, Belgaum, India, 2018, pp. 114-118, doi: 10.1109/CTEMS.2018.8769187.
-
    <!--EndFragment-->
