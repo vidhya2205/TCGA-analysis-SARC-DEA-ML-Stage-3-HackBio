@@ -27,17 +27,15 @@ The AYA (18-40 age group) includes  Aggressive fibromatosis (1 sample), Dediffe
 
 ## 3. Significant enriched pathways identified by FEA
 
- The top 5 enriched KEGG pathways in upregulated genes FEA includes, Granulocyte Adhesion and Diapedesis, Agranulocyte Adhesion and Diapedesis, T Helper Cell Differentiation, Altered T Cell and B Cell Signaling in Rheumatoid Arthritis, Pathogenesis of Multiple Sclerosis. Of these, Granulocyte & Agranulocyte Adhesion and Diapedesis pathways are associated with innate immune response and cancer cell migration,<sup>21,22</sup> while the T Helper Cell Differentiation pathway is associated with active immune response and controls the tumor necrosis process.<sup>23</sup> Additionally, most of the highlighted pathways in the BP term are also associated with immune response (Fig 4.4). 
+The top 5 enriched KEGG pathways in upregulated genes FEA includes, Granulocyte Adhesion and Diapedesis, Agranulocyte Adhesion and Diapedesis, T Helper Cell Differentiation, Altered T Cell and B Cell Signaling in Rheumatoid Arthritis, Pathogenesis of Multiple Sclerosis. Of these, Granulocyte & Agranulocyte Adhesion and Diapedesis pathways are associated with innate immune response and cancer cell migration,<sup>21,22</sup> while the T Helper Cell Differentiation pathway is associated with active immune response and controls the tumor necrosis process.<sup>23</sup> Additionally, most of the highlighted pathways in the BP term are also associated with immune response (Fig 4.4). 
 
-    
-
-   These results suggest that the majority of upregulated genes in AYA sarcoma patients are associated with immune response pathways, and studying them in detail could provide insights into the effectiveness of immunotherapy. Additionally, multiple retrospective studies have shown that though immunotherapy is emerging in treatment of sarcoma, it's not very effective and requires more advancement.<sup>24,25,26</sup>
+These results suggest that the majority of upregulated genes in AYA sarcoma patients are associated with immune response pathways, and studying them in detail could provide insights into the effectiveness of immunotherapy. Additionally, multiple retrospective studies have shown that though immunotherapy is emerging in treatment of sarcoma, it's not very effective and requires more advancement.<sup>24,25,26</sup>
    
 ## 4. Significant genes (features) identified by ML model
 
-      _C1QB_ (ENSG00000173369) activates the complement pathway and creates an immunosuppressive environment that allows cancer cells to proliferate and evade immune detection.<sup>27</sup> Determining whether C1QB is largely tumor-promoting or tumor-suppressive in sarcomas is difficult due to the dual nature of the complement system in cancer.<sup>28</sup> 
+_C1QB_ (ENSG00000173369) activates the complement pathway and creates an immunosuppressive environment that allows cancer cells to proliferate and evade immune detection.<sup>27</sup> Determining whether C1QB is largely tumor-promoting or tumor-suppressive in sarcomas is difficult due to the dual nature of the complement system in cancer.<sup>28</sup> 
 
-   _CD74_ (ENSG00000019582) is an invariant chain of HLA class II chaperones.With a high expression in pediatric osteosarcoma patients without metastases, _CD74_ has been found associated with immune infiltrations and immune checkpoint inhibitors.<sup>29</sup> AYA patients should be examined as they have high expression of it in our study. 
+_CD74_ (ENSG00000019582) is an invariant chain of HLA class II chaperones.With a high expression in pediatric osteosarcoma patients without metastases, _CD74_ has been found associated with immune infiltrations and immune checkpoint inhibitors.<sup>29</sup> AYA patients should be examined as they have high expression of it in our study. 
    
 ## 5. Comparison of significant genes identified by ML model and DGEA
 
