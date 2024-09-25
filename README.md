@@ -33,14 +33,14 @@ In this project, a gene expression dataset for sarcoma from The Cancer Genome At
 * randomForest  
 * reshape2  
     
-  These can be installed by running:  
+These can be installed by running:  
   install.packages(c(“data.table”, “gplots”, “caret”,”DALEX”,”pROC”, “randomForest”, “dplyr”, “ggplot2”, “reshape2”))  
-  To install Bioconductor packages:  
+
+To install Bioconductor packages:  
   install.packages("BiocManager")  
   BiocManager::install("TCGAbiolinks")   
   BiocManager::install("SummarizedExperiment")
-
-BiocManager::install("biomaRt")
+  BiocManager::install("biomaRt")
 
 4. ## **Methodology \- Code**
 
