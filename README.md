@@ -4,7 +4,7 @@
 
 In this project, a gene expression dataset for sarcoma from The Cancer Genome Atlas (TCGA) was pre-processed and analyzed downstream to identify potential cancer biomarkers based on age classification using differential gene expression analysis, functional enrichment analysis, and machine learning (ML) models. The project involved data visualization and interpretation of the identified biomarkers and model performance.
 
-2. ## **GitHub repository folders**
+2. ## **GitHub Repository Folders**
 
 * **Code** \- contains the R script of the code for differential gene expression analysis, functional enrichment analysis, and machine learning model.
 
