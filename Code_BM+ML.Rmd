@@ -247,7 +247,7 @@ trans = as.data.frame(t(filtData))
 # View the transposed data
 head(trans)
 
-# Step 2: Selecting top genes based on variability (standard deviation)
+# Step 2: Selecting top genes based on variability (standard deviation) and data pre processing 
 SD = apply(trans, 2, sd)
 SD = sort(SD, decreasing = TRUE)
 top_genes = names
@@ -257,6 +257,21 @@ trans = trans[, names(SD)[1:1000]]
 
 # Check the dimensions
 dim(trans)
+
+#preprocessing
+#Removing NZV
+zero=preProcess(trans, method="nzv", uniqueCut=15)
+trans=predict(zero, trans)
+
+#Center the data
+center=preProcess(trans, method="center")
+trans=predict(center, trans)
+
+#Removing highly corelated colums
+corr=preProcess(trans, method='corr',  cutoff= 0.5)
+trans=predict(corr, trans) 
+
+
 
 # Step 3: Merge with metadata based on sample IDs
 trans$Sample_ID <- rownames(trans)
