@@ -21,6 +21,8 @@ Previous studies indicate that there is a significant difference in response to 
 
    ### **2.1. Biomarker Discovery using differential gene expression analysis (DGEA) and functional enrichment analysis (FEA)**
 
+
+![Figure 3.2: Flow chart summarizing Biomarker discovery methodology](Picture1.png)
 <p align = center>
   <kbd>
 <img src="https://photos.google.com/photo/AF1QipMAz-skSlDi0ih7MY-mTT7RRxh3r7xyz0zafPJn" width="400" height = "400">
