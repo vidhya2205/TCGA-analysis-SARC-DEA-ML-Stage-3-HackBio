@@ -4,13 +4,13 @@
 
    Authors (@slack): Vidhyavathy Nagarajan (@Vidhya2205), Ahmed Hasan (@Hasan), Nusrat Afrin (@Nusrat), Shreya Karandikar (@Shreya), Dharshana Rajkumar (@Dharshana), Maram Nhaili (@Maram), Mary Dhevanayagam (@Shanu),
    
-   Link to GitHub Repository and Github Code - [****Link to code****](https://github.com/vidhya2205/TCGA-analysis_SARC_DEA_ML_stage3_HackBio/blob/main/Code/Code_BM%2BML.Rmd) **,** [****Link to Repo****](https://github.com/vidhya2205/TCGA-analysis_SARC_DEA_ML_stage3_HackBio)**.
+   Link to GitHub Repository and Github Code - [****Link to code****](https://github.com/vidhya2205/TCGA-analysis_SARC_DEA_ML_stage3_HackBio/blob/main/Code/Code_BM%2BML.Rmd) **,** [****Link to Repo****](https://github.com/vidhya2205/TCGA-analysis_SARC_DEA_ML_stage3_HackBio).
 
    ## 1. **Introduction**
 
  Sarcoma is a rare and heterogeneous type of cancer of mesenchymal origin, accounting for 1% and 15% of all adult and childhood malignancies, respectively.<sup>1,2</sup> Due to the diversity of the subtypes and site of origin, their characterization and treatment are challenging.<sup>2,3</sup> Hence, identifying reliable biomarkers is crucial for improving early diagnosis, prognosis, and treatment response prediction in sarcoma patients. 
 
-   Previous studies indicate that there is a significant difference in response to therapy, health-related quality index, and prognosis between adolescent-younger patients (AYA - age of diagnosis (AOD) 18-40 years) and older patients (OA - AOD >= 40).<sup>4,5,6,7,8</sup> __Regarding the prognosis, there have been contradictory conclusions, some reporting that OA patients have a poorer prognosis,<sup>4,8</sup> while others supporting otherwise.<sup>9,10,11,12,13</sup> Hence, this study focuses on comparing the RNA-seq data of these two age groups to identify age-specific biomarkers to enhance patient characterization, therapeutic strategies, and prognosis.
+   Previous studies indicate that there is a significant difference in response to therapy, health-related quality index, and prognosis between adolescent-younger patients (AYA - age of diagnosis (AOD) 18-40 years) and older patients (OA - AOD >= 40).<sup>4,5,6,7,8</sup> Regarding the prognosis, there have been contradictory conclusions, some reporting that OA patients have a poorer prognosis,<sup>4,8</sup> while others supporting otherwise.<sup>9,10,11,12,13</sup> Hence, this study focuses on comparing the RNA-seq data of these two age groups to identify age-specific biomarkers to enhance patient characterization, therapeutic strategies, and prognosis.
 
    ## 2.**Methodology**
 <p align = center>
