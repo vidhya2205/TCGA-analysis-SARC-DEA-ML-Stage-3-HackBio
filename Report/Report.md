@@ -105,7 +105,7 @@ Upon validation, the model achieved 100% accuracy, with Sensitivity, Specificity
   </p>
  <p align = center><sup>Fig 4.2.3. Receiver operating characteristic (ROC) curve demonstrating the performance of Random Forest in Biomarker identification. The area under the curve (AUC) is 1.</sup></p>
 
- ####       ** 3.2.3. Top Variable Genes ** 
+ ####       **3.2.3. Top Variable Genes** 
 
 **Age group:**
 
