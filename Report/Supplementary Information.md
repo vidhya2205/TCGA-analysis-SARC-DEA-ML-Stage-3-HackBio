@@ -7,9 +7,9 @@
 
 Supplementary Figure 1 illustrates the differences in demographics (sarcoma subtypes, gender) between the two age groups compared in the study. There is an uneven distribution of the patient's primary diagnosis (subtypes) and gender. 
 
-The OA (>=40 age group) includes Dedifferentiated liposarcoma(4 samples), Fibromyxosarcoma(3 samples), Leiomyosarcoma, NOS (8 samples), Undifferentiated sarcoma( 5 samples), with over 2:3 female: male ratio.
+The OA (>=40 age group) includes Dedifferentiated liposarcoma (4 samples), Fibromyxosarcoma (3 samples), Leiomyosarcoma, NOS (8 samples), Undifferentiated sarcoma (5 samples), with over 2:3 female: male ratio.
 
-The AYA (18-40 age group) includes  Aggressive fibromatosis(1 sample), Dedifferentiated liposarcoma (3 samples), Leiomyosarcoma, NOS (4 samples), Liposarcoma, well-differentiated (1 sample), Malignant peripheral nerve sheath tumor(5 samples), Synovial sarcoma, biphasic (1 sample), Synovial sarcoma, NOS(2 samples) and Synovial sarcoma, spindle cell (3 samples)subtypes, with 3:2 female: male ratio.  
+The AYA (18-40 age group) includes  Aggressive fibromatosis (1 sample), Dedifferentiated liposarcoma (3 samples), Leiomyosarcoma, NOS (4 samples), Liposarcoma, well-differentiated (1 sample), Malignant peripheral nerve sheath tumor (5 samples), Synovial sarcoma, biphasic (1 sample), Synovial sarcoma, NOS (2 samples) and Synovial sarcoma, spindle cell (3 samples) subtypes, with 3:2 female: male ratio.  
 <p align = center>
   <kbd>
 <img src= "https://lh7-rt.googleusercontent.com/docsz/AD_4nXeuGX4HOBPBGPXpS6WHKBLcRQ_y-fwjAPiOUN07QAdqEaWa5ANbkHCTlEFeUwV9NfD1vPH4vbrE7VUDAyQgcqYLJge-ayKKsp8oH6JRS61I8XwGGicC2vDYV6xos-HR_A2whsd6xvpVIr24h0nNogzUpCUf?key=HXlJRcxwxxfPeZ62iFJQUw" width="800" height = "300">
