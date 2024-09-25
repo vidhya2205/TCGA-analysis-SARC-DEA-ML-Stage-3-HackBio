@@ -12,7 +12,7 @@ In this project, a gene expression dataset for sarcoma from The Cancer Genome At
 
 * **Images** \- contains the results generated from differential gene expression analysis, functional enrichment analysis and machine learning model, as well as supplementary information.
 
-* **Report** \- contains the markdown file of the project report.
+* **Report** \- contains the markdown file of the project report and supplementary information.
 
   ## 
 
