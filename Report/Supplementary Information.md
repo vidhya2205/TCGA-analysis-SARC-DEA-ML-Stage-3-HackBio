@@ -22,8 +22,18 @@ The AYA (18-40 age group) includes  Aggressive fibromatosis(1 sample), Dediffer
 Supplementary figure 2 indicates the difference between the significant genes identified by the ML model and DGEA. Its seen that the significant genes identified by ML model fall under the nonsignificant category by DGEA and stringent cutoff of log fold change(logFC) threshold of ±1.5  and FDR < 0.005. This may be due to the use of SD values for feature selection. The results may differ for other feature selection methods like Boruta and RFE.
 <p align = center>
   <kbd>
-<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc3jLTYU3Tz52Bzoi6Hzo1_cqKYW1C-U9Lp2XU7_WM78wq0vSCWw_8GceT3TYyupO9PkLpJ8ysi_jHiYzCDMrTcQ1x9YKcn2vK3R-Alq_W00-JrGig_J7LWf3CtR0iFwJohHZZ3PijfnFEkOE0YTYdFDRDY?key=HXlJRcxwxxfPeZ62iFJQUw" style="border: 5px solid" width="500" height = "400">
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc3jLTYU3Tz52Bzoi6Hzo1_cqKYW1C-U9Lp2XU7_WM78wq0vSCWw_8GceT3TYyupO9PkLpJ8ysi_jHiYzCDMrTcQ1x9YKcn2vK3R-Alq_W00-JrGig_J7LWf3CtR0iFwJohHZZ3PijfnFEkOE0YTYdFDRDY?key=HXlJRcxwxxfPeZ62iFJQUw" width="500" height = "400">
   </kbd>
   </p>
   <p align = center><sup>Supplementary Figure 2. Volcano plot comparing the significant genes identified by DGEA and ML model </sup> </p>
+  
+  3. ## **Visual Representation of the biomarker findings**
+
+The ML model, DGEA and FEA has identified a set of significant dysregulated genes which have some established role in cancer. Significant biomarkers and their associated pathways in AYA and OA patient groups are illustrated in supplementary figure 3.
+<p align = center>
+  <kbd>
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfAKzUFFzuYsHySSqQwUzWFEMU3Nj8xhxJHLYguiTngMOxQ4PAmbp9jfGrc8oLfEYSuf0meP6k-W5ftlMNANzmYHpEZGqUhLx1yWcxsBOmItkYRr371oER6lRMuRRS78WvQnrbdLI9Vxtf67fsG3DmBwQxO?key=HXlJRcxwxxfPeZ62iFJQUw" width="500" height = "400">
+    </kbd>
+  </p>
+  <p align = center><sup>Supplementary Figure 3. Pictorial representation of the findings </sup> </p>
 <!--EndFragment-->
