@@ -47,7 +47,7 @@ Data was transposed and merged with the meta\_data to include the target variabl
 
 ####       **3.1.1. Differential gene expression analysis (DGEA)**
 
-Based on the DGEA, 2376 significant differentially expressed genes (DEG) were identified from the \~31,000 genes, between the two groups, using a log fold change and p-value cutoff. Of these, 848 and 1877 genes were up-regulated and down-regulated respectively, in the AYA patient group. The volcano plot (figure 4.1) shows the distribution of DEGs (\~31,000), with highly significant genes displayed in the top right (blue) and left (red) quadrants. Heatmap (figure 4.2) of the significant DEG (2376 genes), shows a pattern of dysregulation specific to each group as clustered by column colors (red-OA and blue-AYA patients).
+Based on the DGEA, 2376 significant differentially expressed genes (DEG) were identified from the \~31,000 genes, between the two groups, using a log fold change and p-value cutoff. Of these, 848 and 1877 genes were up-regulated and down-regulated respectively, in the AYA patient group. The volcano plot (figure 4.1) shows the distribution of DEGs (\~31,000), with highly significant genes displayed in the top right (blue) and left (red) quadrants. Heatmap (figure 4.2) of the significant DEG (2376 genes), shows a pattern of dysregulation specific to each group as clustered by column colors (red-OA and blue-AYA patients). The section 2 in [Supplementary\_information](https://github.com/vidhya2205/TCGA-analysis_SARC_DEA_ML_stage3_HackBio/blob/main/Report/Supplementary%20Information.md) provides a detailed overview of the top dysregulated genes and their role in cancer.
 
 <p align = center float="left">
   <kbd>
@@ -63,14 +63,9 @@ Based on the DGEA, 2376 significant differentially expressed genes (DEG) were id
   </sup>
 </p>
 
-Though there are contradicting studies, some prior studies have shown that AYA sarcoma patients are associated with a worse prognosis compared to OA patients (Li, J. et al., 2024; Andrew EC et al., 2024; Bleyer A. et al., 2008; Tricoli JV et al., 2016; Wolfson JA et al., 2023). Along similar lines, the identified protein-coding differentially regulated genetic biomarkers are closely related to cancer proliferation, advanced stages, and poor prognosis as explained in detail below.
-Among the top 5 novel upregulated genes (based on logFC) in the AYA group, there were 2 lncRNAs (ENSG00000287397 and ENSG00000241168) and 3 protein-coding genes (_GABRA6_,  _NANOGNB_, _PPP4R3C_).  _GABRA6_ gene encodes for a subunit of the _GABA_ receptor and is involved in the GABAergic signaling pathway linked to tumor progression and is explored as a therapeutic target in multiple cancers (Bhattacharya D _et al_., 2021; Yang Y, _et al_., 2023; Huang W _et al_., 2022). Specifically, in the chondrosarcoma cell line, an inhibitor of the GABAergic signaling pathway has successfully attenuated proliferation (Yang Y, _et al_., 2023). _PPP4R3C,_ a regulatory subunit of _PPP4C_ (Hastie CJ _et al_., 2006), which __is associated with homologous recombination and Wnt signaling pathways, has a well-established role in cancer(Wang, Y. _et al_., 2023; Dong MZ _et al_., 2022). Further, this gene has been reported to be a potential diagnostic biomarker for its high expression in several tumors including sarcoma, and is associated with metastasis and poor prognosis in several other cancers (Wang, Y. _et al_., 2023; Li, X., _et al_., 2015; Wang K _et al_., 2024).
-
-The top 5 downregulated genes included 1 lncRNA (ENSG00000286564), and 4 protein-coding genes (_SFTPA1, SFTPB, ADIPOQ, OTX2_). Among these, _SFTPA1, SFTPB, and ADIPOQ_ are found to be downregulated in cancers and their overexpression is associated with good prognosis in some cancers. While _SFTPA1_ and _SFTPB_ are mainly involved in immune response in lung cancer cells, and their downregulation is associated with cancer progression and associated with aggressive growth, _ADIPOQ_ is associated with inducing autophagic cell death in breast cancer (Luo, H _et al_., 2023; Yuan L _et al._ 2022; Chung SJ, _et al_., 2017). Though limited studies are available on the role of these genes in sarcoma and cancer in general, these serve as potential biomarkers.
-
    ####       **3.1.2. Functional enrichment analysis (FEA)**
 
-FEA of the upregulated and downregulated genes resulted in a set of pathways that are enriched  with the gene sets respectively. A total of 4686 pathways were identified by the analysis (2423 in Biological Process (BP), 1157 in Molecular Function (MF), 517 in Cellular components(CC) and 589 KEGG Pathways (KP))  for each gene set. From these the top enriched pathways are identified and plotted based on enrichment and p-value (FDR) as illustrated in Fig 3.3 and Fig. 3.4.
+FEA of the upregulated and downregulated genes resulted in a set of pathways that are enriched  with the gene sets respectively. A total of 4686 pathways were identified by the analysis (2423 in Biological Process (BP), 1157 in Molecular Function (MF), 517 in Cellular components(CC) and 589 KEGG Pathways (KP))  for each gene set. From these the top enriched pathways are identified and plotted based on enrichment and p-value (FDR) as illustrated in Fig 3.3 and Fig. 3.4.  The section 3 in [Supplementary\_information](https://github.com/vidhya2205/TCGA-analysis_SARC_DEA_ML_stage3_HackBio/blob/main/Report/Supplementary%20Information.md) provides a detailed overview of the top enriched KEGG pathways and their role in cancer.
 <p align = center>
   <kbd>
 <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfh2bYXUy07vUSYVIP51GsL0B_5eqrRhIUTG37WkmT3CBOOs80FPygdjR-5nx1dfymP7xkVzebXQy03NU_urtO_ieN7aKMGArea16zs7DFUhSWds_tL9jmh1a2S9Wd0bycvRdx549EsmHVc8e80-Efr3W6j?key=xvw3JB3jr1ZpthYtl54CPw" width="700" height = "300">
@@ -84,10 +79,6 @@ FEA of the upregulated and downregulated genes resulted in a set of pathways tha
   </kbd>
   </p>
  <p align = center><sup>Fig. 3.4. FEA of upregulated  genes</sup></p>
- 
-Transcriptional Regulatory Network in Embryonic Stem Cells (TRNES), Calcium Signaling, Glutamate Receptor Signaling, Cellular Effects of Sildenafil, GABA Receptor Signaling are the the top 5 enriched KEGG pathways in downregulated genes FEAin AYA sarcoma patients . The TRNES pathway, Glutamate Receptor Signaling, Calcium Signaling and GABA Receptor Signaling are pathways that associated with therapy resistance in sarcoma (Zhang, Z. et al., 2024), TCA cycle (in osteosarcoma) (Koda S et al., 2023; A., B., Shin  et al., 2013), immune associated pathways in cancer (including osteosarcoma) (Wu L, et al., 2021), and proliferation of chondrosarcoma (Kanbara K et al., 2018) respectively. This suggests that dysregulation of genes in these pathways can in turn impact multiple mechanisms in cancer and have to be studied in detail.
-
-The top 5 enriched KEGG pathways in upregulated genes FEA includes, Granulocyte Adhesion and Diapedesis, Agranulocyte Adhesion and Diapedesis, T Helper Cell Differentiation, Altered T Cell and B Cell Signaling in Rheumatoid Arthritis, Pathogenesis of Multiple Sclerosis. Of these, Granulocyte & Agranulocyte Adhesion and Diapedesis pathways are associated with innate immune response and cancer cell migration (Xing L, et al., 2017; Filippi MD et al., 2016), while T Helper Cell Differentiation pathway is associated with active immune response and control tumor necrosis process (Ahmed H et al., 2022). Additionally, most of the highlighted pathways in the BP term are also associated with immune response (Fig 4.4). These results suggest that the majority of upregulated genes in AYA sarcoma patients are associated with immune response pathways and studying them in detail could provide insights on effectiveness of immunotherapy. Additionally, multiple retrospective studies have shown that though immunotherapy is emerging in treatment of sarcoma, it's not very effective and requires more advancement (Wood GE et al 2024; Koumarianou A et al., 2021; Jeong S et al., 2023).
 
    ### **3.2. Machine Learning**
 
@@ -109,11 +100,7 @@ Upon validation, the model achieved 100% accuracy, with Sensitivity, Specificity
 
 **Age group:**
 
-The top 20 variable genes between the two age groups were identified and visualized using violin plots, revealing distinct expression patterns. Several genes, such as ENSG00000173369 and ENSG00000124491, were more expressed in the ≥40 groups, while others, like ENSG00000173388 and ENSG00000119582, showed higher expression in the younger group. These differences suggest that these genes may serve as molecular markers for aging.
-
-_C1QB_ (ENSG00000173369) is a component of C1Q. It activates the complement pathway and aggravates disease progression creating an immunosuppressive environment that allows cancer cells to proliferate and evade immune detection (Roumenina et.al.,2019). C1Q may have regulatory functions in tumors that enhance survival and cause apoptosis. Determining whether C1QB is largely tumor-promoting or tumor-suppressive in sarcomas is difficult due to the dual nature of the complement system in cancer (Chen et.al.,2021).
-
-_CD74_ is an invariant chain of human lymphocyte antigen (HLA) class II chaperone that functions in antigen presentation.  It is a receptor on the cell surface that binds to the cytokine macrophage migration inhibitory factor (MIF). Improved CD74/MIF interactions were found to activate the PI3K/AKT pathway in melanoma and increase tumor survival. With a comparatively high expression in pediatric osteosarcoma patients without metastases, CD74 has been found associated with immune infiltrations and immune checkpoint inhibitors (Yuan et al., 2024). AYA patients should be examined as they have high expression of it in our study.
+The top 20 variable genes between the two age groups were identified and visualized using violin plots, revealing distinct expression patterns. Several genes, such as ENSG00000173369 and ENSG00000124491, were more expressed in the ≥40 groups, while others, like ENSG00000173388 and ENSG00000119582, showed higher expression in the younger group. These differences suggest that these genes may serve as molecular markers for aging. The section 4 in[ Supplementary\_information](https://github.com/vidhya2205/TCGA-analysis_SARC_DEA_ML_stage3_HackBio/blob/main/Report/Supplementary%20Information.md) provides a detailed overview of the genes identified by the ML 
 
 <p align = center>
   <kbd>
@@ -135,105 +122,58 @@ The study highlights the effectiveness of gene expression profiles in distinguis
 
    ### **4. Conclusion and Future Prospects**
 
-DGEA and functional enrichment analysis of the RNA-seq data of the AYA and OA sarcoma patients was performed to identify significant biomarkers. Many of the top 5 differentially regulated genes identified have been linked to play a role in sarcoma and other cancers. However, research is needed to elucidate and establish their roles in the AYA sub-group of sarcoma patients. Future studies can be directed to explore the role of these genes in this subgroup. Additionally, the differentially regulated protein-coding genes identified in silico must be validated by in vivo and in vitro assays for their role as age-based biomarkers in sarcoma. With increasing interest in the role of lncRNAs in sarcoma pathogenesis and progression (Wang K et al., 2020; Min L et al., 2017), the dysregulated lncRNAs can pave the way to new research. The dysregulation of immune response pathways, vital pathways associated with cancer progression, and cancer stem cell-like properties indicate a significant difference in the progression and therapy response between the two groups. The integration of multi-omics can contribute to a more comprehensive disease profile which will help understand sarcoma's underlying mechanism and develop suitable therapeutic targets and diagnostic biomarkers for each age group. The current study has some limitations due to the limited number of samples and uneven distribution of subtypes in the 2 groups, hence a larger study with even distribution could provide more accurate insights. 
-
-The results of applying the Random Forest model on 40 samples of Sarcoma gave accuracy and Kappa of 1, indicating sensitivity and specificity values of 1. This suggests that the model is perfectly predicted for both classes of age groups. The 95% confidence interval for accuracy is (0.7354, 1), which shows the model could generalize well on new data. Positive and Negative Predictive Values (Pos Pred Value = 1, Neg Pred Value = 1) indicate that the model’s predictions for both classes are entirely accurate. Cross-validation via k-fold showed a mtry value of 1000 and an increase in the RMSE value as the mtry increases depicting an accuracy. The balanced accuracy is also 1, confirming equal performance across both classes. However, these perfect scores also indicate that there might be overfitting due to the small sample size of 40 and high dimensionality of 1000. The top 20 variable genes identified by the model can help classify sarcoma based on age. To enhance model performance, validate it on independent data to assess generalizability and increase the sample size to mitigate overfitting. Employ dimensionality reduction techniques, such as PCA or feature selection, and implement repeated stratified k-fold cross-validation for reliable performance evaluation. Additionally, explore simpler models like Logistic Regression or SVM for potentially better generalization, analyze feature importance for interpretability, and consider regularization methods to prevent overfitting. This could further enhance the predictive power and uncover non-linear relationships within gene expression data. Lastly, incorporating longitudinal data and exploring how gene expression patterns evolve as individuals age could offer valuable insights into aging's progressive nature, potentially leading to early detection markers for age-associated diseases.
+In conclusion, the RNA-seq data analysis of AYA and OA sarcoma patients revealed significant gene expression variations associated with sarcoma pathogenesis. Many differently regulated genes have known cancer involvement, suggesting that they could serve as biomarkers for AYA sarcoma. However, further research is required to validate these findings and understand their unique functions in AYA patients. Additional studies may concentrate on validating those genes using both in vitro and in vivo, as well as investigating the role of lncRNAs in sarcoma progression. Again, the Random Forest model achieved perfect scores but may have overfitted due to the small sample size and high dimensionality. It has potential for age-based classification, but it requires additional validation and improvements such as independent data testing, higher sample sizes, dimensionality reduction, stratified k-fold cross-validation, and the exploration of simpler models.
 
    ### 5. References 
 
-1. von Mehren M, Kane JM, Agulnik M, Bui MM, Carr-Ascher J, Choy E, Connelly M, Dry S, Ganjoo KN, Gonzalez RJ, Holder A, Homsi J, Keedy V, Kelly CM, Kim E, Liebner D, McCarter M, McGarry SV, Mesko NW, Meyer C, Pappo AS, Parkes AM, Petersen IA, Pollack SM, Poppe M, Riedel RF, Schuetze S, Shabason J, Sicklick JK, Spraker MB, Zimel M, Hang LE, Sundar H, Bergman MA. Soft Tissue Sarcoma, Version 2.2022, NCCN Clinical Practice Guidelines in Oncology. J Natl Compr Canc Netw. 2022 Jul;20(7):815-833. doi: 10.6004/jnccn.2022.0035. PMID: 35830886; PMCID: PMC10186762.
+ 1. von Mehren M, Kane JM, Agulnik M, Bui MM, Carr-Ascher J, Choy E, Connelly M, Dry S, Ganjoo KN, Gonzalez RJ, Holder A, Homsi J, Keedy V, Kelly CM, Kim E, Liebner D, McCarter M, McGarry SV, Mesko NW, Meyer C, Pappo AS, Parkes AM, Petersen IA, Pollack SM, Poppe M, Riedel RF, Schuetze S, Shabason J, Sicklick JK, Spraker MB, Zimel M, Hang LE, Sundar H, Bergman MA. Soft Tissue Sarcoma, Version 2.2022, NCCN Clinical Practice Guidelines in Oncology. J Natl Compr Canc Netw. 2022 Jul;20(7):815-833. doi: 10.6004/jnccn.2022.0035. PMID: 35830886; PMCID: PMC10186762.
 
-2. Burningham Z, Hashibe M, Spector L, Schiffman JD. The epidemiology of sarcoma. Clin Sarcoma Res. 2012 Oct 4;2(1):14. doi: 10.1186/2045-3329-2-14. PMID: 23036164; PMCID: PMC3564705.
+   2. Burningham Z, Hashibe M, Spector L, Schiffman JD. The epidemiology of sarcoma. Clin Sarcoma Res. 2012 Oct 4;2(1):14. doi: 10.1186/2045-3329-2-14. PMID: 23036164; PMCID: PMC3564705.
 
-3. Holthuis EI, Heins MJ, van Houdt WJ, et al. Improving Diagnosis and Care for Patients With Sarcoma: Do Real-World General Practitioners Data and Prospective Data Collections Have a Place Next to Clinical Trials?. JCO Clin Cancer Inform. 2024;8:e2400054. doi:10.1200/CCI.24.00054
+   3. Holthuis EI, Heins MJ, van Houdt WJ, et al. Improving Diagnosis and Care for Patients With Sarcoma: Do Real-World General Practitioners Data and Prospective Data Collections Have a Place Next to Clinical Trials?. JCO Clin Cancer Inform. 2024;8:e2400054. doi:10.1200/CCI.24.00054
 
-4. Stricker E, Reed DR, Schabath MB, Sok P, Scheurer ME, Lupo PJ. Trends in Overall Survival among Patients Treated for Sarcoma at a Large Tertiary Cancer Center between 1986 and 2014. Cancers (Basel). 2023 Jan 14;15(2):514. doi: 10.3390/cancers15020514. PMID: 36672463; PMCID: PMC9856368.
+   4. Stricker E, Reed DR, Schabath MB, Sok P, Scheurer ME, Lupo PJ. Trends in Overall Survival among Patients Treated for Sarcoma at a Large Tertiary Cancer Center between 1986 and 2014. Cancers (Basel). 2023 Jan 14;15(2):514. doi: 10.3390/cancers15020514. PMID: 36672463; PMCID: PMC9856368.
 
-5. Liu H, Zhang H, Zhang C, Liao Z, Li T, Yang T, Zhang G, Yang J. Pan-Soft Tissue Sarcoma Analysis of the Incidence, Survival, and Metastasis: A Population-Based Study Focusing on Distant Metastasis and Lymph Node Metastasis. Front Oncol. 2022 Jul 7;12:890040. doi: 10.3389/fonc.2022.890040. PMID: 35875111; PMCID: PMC9303001.
+   5. Liu H, Zhang H, Zhang C, Liao Z, Li T, Yang T, Zhang G, Yang J. Pan-Soft Tissue Sarcoma Analysis of the Incidence, Survival, and Metastasis: A Population-Based Study Focusing on Distant Metastasis and Lymph Node Metastasis. Front Oncol. 2022 Jul 7;12:890040. doi: 10.3389/fonc.2022.890040. PMID: 35875111; PMCID: PMC9303001.
 
-6. Xu Z, Wang L, Tu L, Liu Y, Xie X, Tang X, Luo F. Epidemiology of and prognostic factors for patients with sarcomatoid carcinoma: a large population-based study. Am J Cancer Res. 2020 Nov 1;10(11):3801-3814. Erratum in: Am J Cancer Res. 2021 Apr 15;11(4):1800-1802. PMID: 33294268; PMCID: PMC7716166.
+   6. Xu Z, Wang L, Tu L, Liu Y, Xie X, Tang X, Luo F. Epidemiology of and prognostic factors for patients with sarcomatoid carcinoma: a large population-based study. Am J Cancer Res. 2020 Nov 1;10(11):3801-3814. Erratum in: Am J Cancer Res. 2021 Apr 15;11(4):1800-1802. PMID: 33294268; PMCID: PMC7716166.
 
-7. Drabbe C, Van der Graaf WTA, De Rooij BH, Grünhagen DJ, Soomers VLMN, Van de Sande MAJ, Been LB, Keymeulen KBMI, van der Geest ICM, Van Houdt WJ, Husson O. The age-related impact of surviving sarcoma on health-related quality of life: data from the SURVSARC study. ESMO Open. 2021 Feb;6(1):100047. doi: 10.1016/j.esmoop.2021.100047. Epub 2021 Jan 27. PMID: 33516150; PMCID: PMC7844567.
+   7. Drabbe C, Van der Graaf WTA, De Rooij BH, Grünhagen DJ, Soomers VLMN, Van de Sande MAJ, Been LB, Keymeulen KBMI, van der Geest ICM, Van Houdt WJ, Husson O. The age-related impact of surviving sarcoma on health-related quality of life: data from the SURVSARC study. ESMO Open. 2021 Feb;6(1):100047. doi: 10.1016/j.esmoop.2021.100047. Epub 2021 Jan 27. PMID: 33516150; PMCID: PMC7844567.
 
-8. Younger, E., Husson, O., Bennister, L. et al. Age-related sarcoma patient experience: results from a national survey in England. BMC Cancer 18, 991 (2018). <https://doi.org/10.1186/s12885-018-4866-8>
+   8. Younger, E., Husson, O., Bennister, L. et al. Age-related sarcoma patient experience: results from a national survey in England. BMC Cancer 18, 991 (2018). <https://doi.org/10.1186/s12885-018-4866-8>
 
-9. Andrew EC, Lewin J, Desai J, Orme L, Hamilton A, Bae S, Zhu W, Nicolson S, Varghese LN, Mitchell CB, et al. Clinical Impact of Comprehensive Molecular Profiling in Adolescents and Young Adults with Sarcoma. Journal of Personalized Medicine. 2024; 14(2):128. https\://doi.org/10.3390/jpm14020128
+   9. Andrew EC, Lewin J, Desai J, Orme L, Hamilton A, Bae S, Zhu W, Nicolson S, Varghese LN, Mitchell CB, et al. Clinical Impact of Comprehensive Molecular Profiling in Adolescents and Young Adults with Sarcoma. Journal of Personalized Medicine. 2024; 14(2):128. <https://doi.org/10.3390/jpm14020128>
 
-10. Li, J., Ji, Y. Clinicopathological characteristics and genetic features of young and senior Ewing sarcoma patients. Diagn Pathol 19, 124 (2024). https\://doi.org/10.1186/s13000-024-01548-4
+   10. Li, J., Ji, Y. Clinicopathological characteristics and genetic features of young and senior Ewing sarcoma patients. Diagn Pathol 19, 124 (2024). <https://doi.org/10.1186/s13000-024-01548-4>
 
-11. Bleyer A, Barr R, Hayes-Lattin B, et al. The distinctive biology of cancer in adolescents and young adults. Nat Rev Cancer. 2008;8(4):288-298. doi:10.1038/nrc2349
+   11. Bleyer A, Barr R, Hayes-Lattin B, et al. The distinctive biology of cancer in adolescents and young adults. Nat Rev Cancer. 2008;8(4):288-298. doi:10.1038/nrc2349
 
-12. Tricoli JV, Blair DG, Anders CK, Bleyer WA, Boardman LA, Khan J, Kummar S, Hayes-Lattin B, Hunger SP, Merchant M, Seibel NL, Thurin M, Willman CL. Biologic and clinical characteristics of adolescent and young adult cancers: Acute lymphoblastic leukemia, colorectal cancer, breast cancer, melanoma, and sarcoma. Cancer. 2016 Apr 1;122(7):1017-28. doi: 10.1002/cncr.29871. Epub 2016 Feb 5. PMID: 26849082; PMCID: PMC4803597.
+   12. Tricoli JV, Blair DG, Anders CK, Bleyer WA, Boardman LA, Khan J, Kummar S, Hayes-Lattin B, Hunger SP, Merchant M, Seibel NL, Thurin M, Willman CL. Biologic and clinical characteristics of adolescent and young adult cancers: Acute lymphoblastic leukemia, colorectal cancer, breast cancer, melanoma, and sarcoma. Cancer. 2016 Apr 1;122(7):1017-28. doi: 10.1002/cncr.29871. Epub 2016 Feb 5. PMID: 26849082; PMCID: PMC4803597.
 
-13. Wolfson JA, Kenzik KM, Foxworthy B, et al. Understanding Causes of Inferior Outcomes in Adolescents and Young Adults With Cancer. J Natl Compr Canc Netw. 2023;21(8):881-888. doi:10.6004/jnccn.2023.7056.
+   13. Wolfson JA, Kenzik KM, Foxworthy B, et al. Understanding Causes of Inferior Outcomes in Adolescents and Young Adults With Cancer. J Natl Compr Canc Netw. 2023;21(8):881-888. doi:10.6004/jnccn.2023.7056.
 
-14. Huang W, Cao L. Targeting GABA signaling for cancer treatment. Nat Cell Biol. 2022;24(2):131-132. doi:10.1038/s41556-021-00839-y
+   14. Li, X., Liang, L., Huang, L. et al. High expression of protein phosphatase 4 is associated with the aggressive malignant behavior of colorectal carcinoma. Mol Cancer 14, 95 (2015). https\://doi.org/10.1186/s12943-015-0356-7
 
-15. Bhattacharya D, Gawali VS, Kallay L, Toukam DK, Koehler A, Stambrook P, Krummel DP, Sengupta S. Therapeutically leveraging GABAA receptors in cancer. Exp Biol Med (Maywood). 2021 Oct;246(19):2128-2135. doi: 10.1177/15353702211032549. PMID: 34649481; PMCID: PMC8524771.
+   15. Dong MZ, Ouyang YC, Gao SC, et al. PPP4C facilitates homologous recombination DNA repair by dephosphorylating PLK1 during early embryo development. Development. 2022;149(10):dev200351. doi:10.1242/dev.200351
 
-16. Wang K, Peng B, Xu R, et al. Comprehensive analysis of PPP4C's impact on prognosis, immune microenvironment, and immunotherapy response in lung adenocarcinoma using single-cell sequencing and multi-omics. Front Immunol. 2024;15:1416632. Published 2024 Jul 4. doi:10.3389/fimmu.2024.1416632
+   16. Wang, Y., Han, W., Yun, S. et al. Identification of protein phosphatase 4 catalytic subunit as a Wnt promoting factor in pan-cancer and Xenopus early embryogenesis. Sci Rep 13, 10240 (2023). https\://doi.org/10.1038/s41598-023-35719-y.
 
-17. Li, X., Liang, L., Huang, L. et al. High expression of protein phosphatase 4 is associated with the aggressive malignant behavior of colorectal carcinoma. Mol Cancer 14, 95 (2015). https\://doi.org/10.1186/s12943-015-0356-7
+   17. Hastie CJ, Vázquez-Martin C, Philp A, Stark MJ, Cohen PT. The Saccharomyces cerevisiae orthologue of the human protein phosphatase 4 core regulatory subunit R2 confers resistance to the anticancer drug cisplatin. FEBS J. 2006;273(14):3322-3334. doi:10.1111/j.1742-4658.2006.05336.x
 
-18. Dong MZ, Ouyang YC, Gao SC, et al. PPP4C facilitates homologous recombination DNA repair by dephosphorylating PLK1 during early embryo development. Development. 2022;149(10):dev200351. doi:10.1242/dev.200351
+   18. Grubelnik G, Boštjančič E, Pavlič A, Kos M, Zidar N. NANOG expression in human development and cancerogenesis. Exp Biol Med (Maywood). 2020;245(5):456-464. doi:10.1177/1535370220905560
 
-19. Wang, Y., Han, W., Yun, S. et al. Identification of protein phosphatase 4 catalytic subunit as a Wnt promoting factor in pan-cancer and Xenopus early embryogenesis. Sci Rep 13, 10240 (2023). https\://doi.org/10.1038/s41598-023-35719-y.
+   19. Dunwell TL, Holland PWH. A sister of NANOG regulates genes expressed in pre-implantation human development. Open Biol. 2017;7(4):170027. doi:10.1098/rsob.170027
 
-20. Hastie CJ, Vázquez-Martin C, Philp A, Stark MJ, Cohen PT. The Saccharomyces cerevisiae orthologue of the human protein phosphatase 4 core regulatory subunit R2 confers resistance to the anticancer drug cisplatin. FEBS J. 2006;273(14):3322-3334. doi:10.1111/j.1742-4658.2006.05336.x
+   20. Jiang MC, Ni JJ, Cui WY, Wang BY, Zhuo W. Emerging roles of lncRNA in cancer and therapeutic opportunities. Am J Cancer Res. 2019;9(7):1354-1366. Published 2019 Jul 1.
 
-21. Grubelnik G, Boštjančič E, Pavlič A, Kos M, Zidar N. NANOG expression in human development and cancerogenesis. Exp Biol Med (Maywood). 2020;245(5):456-464. doi:10.1177/1535370220905560
+   21. Xie, J., Wang, M., Xu, S., Huang, Z., & Grant, P. W. (2021). The Unsupervised Feature Selection Algorithms Based on Standard Deviation and Cosine Similarity for Genomic Data Analysis. _Frontiers in Genetics_, _12_, 684100. <https://doi.org/10.3389/fgene.2021.684100> 
 
-22. Dunwell TL, Holland PWH. A sister of NANOG regulates genes expressed in pre-implantation human development. Open Biol. 2017;7(4):170027. doi:10.1098/rsob.170027
+   22. Acharjee, A., Larkman, J., Xu, Y. _et al._ A random forest-based biomarker discovery and power analysis framework for diagnostics research. _BMC Med Genomics_ **13**, 178 (2020). <https://doi.org/10.1186/s12920-020-00826-6> 
 
-23. Yang Y, Ren L, Li W, et al. GABAergic signaling as a potential therapeutic target in cancers. Biomed Pharmacother. 2023;161:114410. doi:10.1016/j.biopha.2023.114410
+   23. Naji, M. A., Filali, S. E., Aarika, K., Benlahmar, E. H., Abdelouhahid, R. A., & Debauche, O. (2020). Machine Learning Algorithms For Breast Cancer Prediction And Diagnosis. _Procedia Computer Science_, _191_, 487-492. <https://doi.org/10.1016/j.procs.2021.07.062>.
 
-24. Chung SJ, Nagaraju GP, Nagalingam A, et al. ADIPOQ/adiponectin induces cytotoxic autophagy in breast cancer cells through STK11/LKB1-mediated activation of the AMPK-ULK1 axis. Autophagy. 2017;13(8):1386-1403. doi:10.1080/15548627.2017.1332565
+   24. Saritas, I., Ozkan, I. A., & Sert, I. U. (2010). Prognosis of prostate cancer by artificial neural networks. _Expert Systems With Applications_, _37_(9), 6646-6650. <https://doi.org/10.1016/j.eswa.2010.03.056> 
 
-25. Yuan L, Wu X, Zhang L, et al. SFTPA1 is a potential prognostic biomarker correlated with immune cell infiltration and response to immunotherapy in lung adenocarcinoma. Cancer Immunol Immunother. 2022;71(2):399-415. doi:10.1007/s00262-021-02995-4
+   25. Sharma, A. Aggarwal and T. Choudhury, "Breast Cancer Detection Using Machine Learning Algorithms," _2018 International Conference on Computational Techniques, Electronics and Mechanical Systems (CTEMS)_, Belgaum, India, 2018, pp. 114-118, doi: 10.1109/CTEMS.2018.8769187.
 
-26. Luo, H., Li, Q., Wang, RT. et al. Downregulation of pro-surfactant protein B contributes to the recurrence of early-stage non-small cell lung cancer by activating PGK1-mediated Akt signaling. Exp Hematol Oncol 12, 94 (2023). <https://doi.org/10.1186/s40164-023-00455-6>.
-
-27. Jiang MC, Ni JJ, Cui WY, Wang BY, Zhuo W. Emerging roles of lncRNA in cancer and therapeutic opportunities. Am J Cancer Res. 2019;9(7):1354-1366. Published 2019 Jul 1.
-
-28. Xie, J., Wang, M., Xu, S., Huang, Z., & Grant, P. W. (2021). The Unsupervised Feature Selection Algorithms Based on Standard Deviation and Cosine Similarity for Genomic Data Analysis. _Frontiers in Genetics_, _12_, 684100. <https://doi.org/10.3389/fgene.2021.684100> 
-
-29. Acharjee, A., Larkman, J., Xu, Y. _et al._ A random forest-based biomarker discovery and power analysis framework for diagnostics research. _BMC Med Genomics_ **13**, 178 (2020). <https://doi.org/10.1186/s12920-020-00826-6> 
-
-30. Naji, M. A., Filali, S. E., Aarika, K., Benlahmar, E. H., Abdelouhahid, R. A., & Debauche, O. (2020). Machine Learning Algorithms For Breast Cancer Prediction And Diagnosis. _Procedia Computer Science_, _191_, 487-492. <https://doi.org/10.1016/j.procs.2021.07.062>.
-
-31. Saritas, I., Ozkan, I. A., & Sert, I. U. (2010). Prognosis of prostate cancer by artificial neural networks. _Expert Systems With Applications_, _37_(9), 6646-6650. <https://doi.org/10.1016/j.eswa.2010.03.056> 
-
-32. S. Sharma, A. Aggarwal and T. Choudhury, "Breast Cancer Detection Using Machine Learning Algorithms," _2018 International Conference on Computational Techniques, Electronics and Mechanical Systems (CTEMS)_, Belgaum, India, 2018, pp. 114-118, doi: 10.1109/CTEMS.2018.8769187.
-
-33. Roumenina, Lubka T et al. “Tumor Cells Hijack Macrophage-Produced Complement C1q to Promote Tumor Growth.” _Cancer immunology research_ vol. 7,7 (2019): 1091-1105. doi:10.1158/2326-6066.CIR-18-089.
-
-34. Chen LH, Liu JF, Lu Y, He XY, Zhang C, Zhou HH. Complement C1q (C1qA, C1qB, and C1qC) May Be a Potential Prognostic Factor and an Index of Tumor Microenvironment Remodeling in Osteosarcoma. Front Oncol. 2021 May 17;11:642144. doi: 10.3389/fonc.2021.642144. PMID: 34079754; PMCID: PMC8166322.
-
-35. Yuan J, Yu S. Comprehensive Analysis Reveals Prognostic and Therapeutic Immunity-Related Biomarkers for Pediatric Metastatic Osteosarcoma. Medicina (Kaunas). 2024 Jan 4;60(1):95. doi: 10.3390/medicina60010095. PMID: 38256356; PMCID: PMC10820594.
-
-36. Wang K, Ye X, Yang C, et al. Comprehensive Analysis of Novel lncRNA-TF Regulatory Cross Talks and Identification of Core lncRNA-TF Feedback Loops in Sarcoma. DNA Cell Biol. 2020;39(9):1558-1572. doi:10.1089/dna.2020.5385
-
-37. Min L, Garbutt C, Tu C, Hornicek F, Duan Z. Potentials of Long Noncoding RNAs (LncRNAs) in Sarcoma: From Biomarkers to Therapeutic Targets. Int J Mol Sci. 2017;18(4):731. Published 2017 Mar 29. doi:10.3390/ijms18040731
-
-38. Jeong S, Afroz S, Kang D, Noh J, Suh J, Kim JH, You HJ, Kang HG, Kim YJ, Kim JH. Sarcoma Immunotherapy: Confronting Present Hurdles and Unveiling Upcoming Opportunities. Mol Cells. 2023 Oct 31;46(10):579-588. doi: 10.14348/molcells.2023.0079. Epub 2023 Sep 22. PMID: 37853684; PMCID: PMC10590708.
-
-39. Koumarianou A, Duran-Moreno J. The Sarcoma Immune Landscape: Emerging Challenges, Prognostic Significance and Prospective Impact for Immunotherapy Approaches. Cancers (Basel). 2021 Jan 20;13(3):363. doi: 10.3390/cancers13030363. PMID: 33498238; PMCID: PMC7863949.
-
-40. Wood GE, Meyer C, Petitprez F, D'Angelo SP. Immunotherapy in Sarcoma: Current Data and Promising Strategies. Am Soc Clin Oncol Educ Book. 2024;44(3):e432234. doi:10.1200/EDBK\_432234
-
-41. Ahmed H, Mahmud AR, Siddiquee MF, Shahriar A, Biswas P, Shimul MEK, Ahmed SZ, Ema TI, Rahman N, Khan MA, Mizan MFR, Emran TB. Role of T cells in cancer immunotherapy: Opportunities and challenges. Cancer Pathog Ther. 2022 Dec 20;1(2):116-126. doi: 10.1016/j.cpt.2022.12.002. PMID: 38328405; PMCID: PMC10846312.
-
-42. Filippi MD. Mechanism of Diapedesis: Importance of the Transcellular Route. Adv Immunol. 2016;129:25-53. doi: 10.1016/bs.ai.2015.09.001. Epub 2015 Oct 14. PMID: 26791857; PMCID: PMC4889131.
-
-43. Xing L, Cheng Q, Zha G, Yi S. Transcriptional Profiling at High Temporal Resolution Reveals Robust Immune/Inflammatory Responses during Rat Sciatic Nerve Recovery. Mediators Inflamm. 2017;2017:3827841. doi: 10.1155/2017/3827841. Epub 2017 Apr 12. PMID: 28490837; PMCID: PMC5405595.
-
-44. Kanbara K, Otsuki Y, Watanabe M, et al. GABAB receptor regulates proliferation in the high-grade chondrosarcoma cell line OUMS-27 via apoptotic pathways. BMC Cancer. 2018;18(1):263. Published 2018 Mar 7. doi:10.1186/s12885-018-4149-4
-
-45. Koda S, Hu J, Ju X, Sun G, Shao S, Tang RX, Zheng KY, Yan J. The role of glutamate receptors in the regulation of the tumor microenvironment. Front Immunol. 2023 Feb 1;14:1123841. doi: 10.3389/fimmu.2023.1123841. PMID: 36817470; PMCID: PMC9929049.
-
-46. Zhang, Z., Zhang, Y. Transcriptional regulation of cancer stem cell: regulatory factors elucidation and cancer treatment strategies. J Exp Clin Cancer Res 43, 99 (2024). <https://doi.org/10.1186/s13046-024-03021-y>
-
-47. A., B., Shin, S.-S., & Che, S. (2013). Glutamate Signaling in Human Cancers. InTech. doi: 10.5772/55174
-
-48. Wu L, Lian W, Zhao L. Calcium signaling in cancer progression and therapy. FEBS J. 2021;288(21):6187-6205. doi:10.1111/febs.16133
-<!--EndFragment-->
+   <!--EndFragment-->
