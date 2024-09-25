@@ -6,13 +6,13 @@ In this project, a gene expression dataset for sarcoma from The Cancer Genome At
 
 2. ## **GitHub repository folders**
 
-* Code \- contains the R script of the code for differential gene expression analysis, functional enrichment analysis, and machine learning model.
+* **Code** \- contains the R script of the code for differential gene expression analysis, functional enrichment analysis, and machine learning model.
 
-* Data \- contains the data obtained after pre-processing and differential expression analysis.
+* **Data** \- contains the data obtained after pre-processing and differential expression analysis.
 
-* Images \- contains the results generated from differential gene expression analysis, functional enrichment analysis and machine learning model, as well as supplementary information.
+* **Images** \- contains the results generated from differential gene expression analysis, functional enrichment analysis and machine learning model, as well as supplementary information.
 
-* Report \- contains the markdown file of the project report.
+* **Report** \- contains the markdown file of the project report.
 
   ## 
 
