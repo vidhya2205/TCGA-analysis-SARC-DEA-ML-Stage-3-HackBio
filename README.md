@@ -115,6 +115,15 @@ In this project, a gene expression dataset for sarcoma from The Cancer Genome At
   **4\. 7\. 1\. Patient Demographics**   
   A **bubble plot** representing the primary diagnosis (subtype of sarcoma), gender, age group was plotted using **ggplot()** to represent the dataset distribution.  
     
+  **4.7.2. Significant dysregulated genes identified by DGEA**
+  An overview of the top dysregulated genes and their role in cancer.
+
+  **4.7.3. Significant enriched pathways identified by FEA**
+  An overview of the top enriched KEGG pathways and their role in cancer.
+
+  **4.7.4. Significant genes (features) identified by ML model**
+  A detailed overview of the genes identified by the ML.
+
   **4.7.2. Comparing significant genes from ML model and DGEA**  
   The log fold change and p values of  DEGA analysis is plotted as a volcano plot and significant DEG based on cutoffs along with significant feature(genes) identified by the ml model are highlighted using **ggplot()**.   
     
