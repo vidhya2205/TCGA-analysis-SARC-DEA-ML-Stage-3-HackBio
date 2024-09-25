@@ -2,7 +2,7 @@
 
 # **Analysis of TCGA Sarcoma data for age associated biomarkers in AYA patients and ML model development for classification**
 
-   Authors (@slack): Vidhyavathy Nagarajan (@Vidhya2205), Ahmed Hasan (@Hasan), Nusrat Afrin (@Nusrat), Shreya Karandikar (@Shreya), Dharshana Rajkumar (@Dharshana), Maram Nhaili (@Maram), Mary Dhevanayagam (@Shanu),
+   Authors (@slack): Vidhyavathy Nagarajan (@Vidhya2205), Ahmed Hasan (@Hasan), Nusrat Afrin (@Nusrat), Shreya Karandikar (@Shreya), Dharshana Rajkumar (@Dharshana), Maram Nhaili (@Maram), Mary Dhevanayagam (@Shanu), Henry Momanyi (@Henry)
    
    Link to GitHub Repository and Github Code - [****Link to code****](https://github.com/vidhya2205/TCGA-analysis_SARC_DEA_ML_stage3_HackBio/blob/main/Code/Code_BM%2BML.Rmd) **,** [****Link to Repo****](https://github.com/vidhya2205/TCGA-analysis_SARC_DEA_ML_stage3_HackBio).
 
