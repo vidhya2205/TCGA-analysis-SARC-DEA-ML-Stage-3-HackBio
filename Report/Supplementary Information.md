@@ -3,7 +3,7 @@
 
 # Supplementary Information
 
-1. ## **Patient Demographics**
+## 1. Patient Demographics
 
 The Supplementary figure 1 illustrates the differences in demographics (sarcoma subtypes, gender) between the two age groups compared in the study. There is a uneven distribution of the patient's primary diagnosis (subtypes) and gender as well. 
 
@@ -17,7 +17,7 @@ The AYA (18-40 age group) includes  Aggressive fibromatosis(1 sample), Dediffer
 <sup> Supplementary Figure -1. Patient data distribution between the 2 age groups </sup>
 </p>
 
-2. ## **Comparison of significant genes identified by ML model and DGEA**
+## 2. Comparison of significant genes identified by ML model and DGEA
 
 Supplementary figure 2 indicates the difference between the significant genes identified by the ML model and DGEA. Its seen that the significant genes identified by ML model fall under the nonsignificant category by DGEA and stringent cutoff of log fold change(logFC) threshold of ±1.5  and FDR < 0.005. This may be due to the use of SD values for feature selection. The results may differ for other feature selection methods like Boruta and RFE.
 <p align = center>
@@ -27,7 +27,7 @@ Supplementary figure 2 indicates the difference between the significant genes id
   </p>
   <p align = center><sup>Supplementary Figure 2. Volcano plot comparing the significant genes identified by DGEA and ML model </sup> </p>
   
-  3. ## **Visual Representation of the biomarker findings**
+## 3. Visual Representation of the biomarker findings
 
 The ML model, DGEA and FEA has identified a set of significant dysregulated genes which have some established role in cancer. Significant biomarkers and their associated pathways in AYA and OA patient groups are illustrated in supplementary figure 3.
 <p align = center>
