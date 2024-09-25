@@ -85,11 +85,11 @@ FEA of the upregulated and downregulated genes resulted in a set of pathways tha
 
    ####       **3.2.1. Random Forest Classification**
 
-A Random Forest classification model was developed based on gene expression data to distinguish between two age groups (18-40 and ≥40 years). After filtering the most variable genes using standard deviation, the model was trained with 100 decision trees and tuned via 10-fold cross-validation, yielding an Out-of-Bag (OOB) error rate of 30%. The confusion matrix showed class error rates of 35% for the 18-40 group and 25% for the ≥40 group.
+A Random Forest model trained on gene expression data concerning age used 100 trees and validated via the K-method showed an OOB error rate of 30% and class error of 35% and 25% for 18-40 and ≥40 age groups respectively.
 
    ####       **3.2.2. ROC Curve**
 
-Upon validation, the model achieved 100% accuracy, with Sensitivity, Specificity, Precision, Recall, and F1 Scores all scoring 1.0, indicating excellent classification performance. The optimal number of variables per split (mtry = 1000) yielded an R-squared value of 0.737 and an RMSE of 0.445, demonstrating the model’s ability to explain a significant portion of the data's variance. The ROC curve, with an AUC of 1, further reinforced the model’s predictive power.
+K-fold validation showing 100% accuracy, 1.0 value for sensitivity, specificity, Precision, Recall, and F1 score, R squared value of 0.737, and RMSE value of 0.737 at mtry=1000 and AUC of 1 for ROC curve shows model’s strong performance.
 <p align = center>
   <kbd>
 <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeU_UBiabBgpO57DU9JEZpfiM-1AEICXdESS2QKpsj387_ZPYAZaWFLAFalfey9i6lQ6xqInKRO5v5vwalxOLrjCvBbx-_Inlv7LRGtzHlkNKNVkB5PUtbvP5IcTPvvrUgyRrP2Zkyti4tsm6CnGrFVYqu1?key=xvw3JB3jr1ZpthYtl54CPw" width="700" height = "300">
@@ -101,7 +101,7 @@ Upon validation, the model achieved 100% accuracy, with Sensitivity, Specificity
 
 **Age group:**
 
-The top 20 variable genes between the two age groups were identified and visualized using violin plots, revealing distinct expression patterns. Several genes, such as ENSG00000173369 and ENSG00000124491, were more expressed in the ≥40 groups, while others, like ENSG00000173388 and ENSG00000119582, showed higher expression in the younger group. These differences suggest that these genes may serve as molecular markers for aging. The section 4 in[ Supplementary\_information](https://github.com/vidhya2205/TCGA-analysis_SARC_DEA_ML_stage3_HackBio/blob/main/Report/Supplementary%20Information.md) provides a detailed overview of the genes identified by the ML 
+Several genes, such as ENSG00000173369 and ENSG00000124491, were more expressed in the ≥40 groups, while others, like ENSG00000173388 and ENSG00000119582, showed higher expression in the younger group. These differences suggest that these genes may serve as molecular markers for aging. The section 4 in[ Supplementary\_information](https://github.com/vidhya2205/TCGA-analysis_SARC_DEA_ML_stage3_HackBio/blob/main/Report/Supplementary%20Information.md) provides a detailed overview of the genes identified by the ML 
 
 <p align = center>
   <kbd>
