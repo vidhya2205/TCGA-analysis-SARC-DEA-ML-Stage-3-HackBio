@@ -407,10 +407,10 @@ print(paste("AUC:", auc_value))
 #--------------------------------------------Supplementary Information-------------------------------------------
 #------------Compare the significant genes identified by ML model and DGEA---------------
 ggplot(selectResults.levels, aes(x = logFC, y = -log10(FDR))) +
-    geom_point(aes(color = diff_exp, shape = Highlight), alpha = 0.8, size = 2) + # for DGEA analysis
+    geom_point(aes(color = diff_exp, shape = Highlight), alpha = 0.8, size = 1.5) + # for DGEA analysis
     geom_point(data = subset(selectResults.levels, Highlight == "In ML"), 
                aes(x = logFC, y = -log10(FDR), shape = "In ML"), 
-               size = 3, stroke = 1.2) + # Show legend for ML feature points
+               size = 1.5, stroke = 1.2) + # Show legend for ML feature points
     geom_vline(xintercept = c(-1.5, 1.5), col = "blue", linetype = 'dashed') +  # LogFC thresholds
     geom_hline(yintercept = -log10(0.005), col = "red", linetype = 'dashed') +  # FDR significance threshold
     scale_color_manual(values = c("DOWN"= "blue", 
