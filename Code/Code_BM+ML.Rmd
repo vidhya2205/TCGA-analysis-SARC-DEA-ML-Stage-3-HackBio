@@ -4,9 +4,6 @@ output: html_notebook
 ---
 ```{r}
 #------------------------------------Downloading the dataset-----------------------------
-#set your working directory
-setwd("D:/HackBio/Intenship/stage 3/Results")
-
 #load the necessary libraries
 library("TCGAbiolinks")
 library('ggplot2')
